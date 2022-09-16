@@ -14,6 +14,7 @@
     --blu: #1ae5f7;
     --blk: rgb(14, 12, 12);
     --yellow:#f9ca24;
+    --purple:#E3EBFE;
 }
 
 /* navbar section start  */
@@ -82,16 +83,15 @@
 /* navbar section end  */
 
 /* home section start  */
-.mk-home-row{
+.home{
     height: 100vh;
-    align-items: center;
     background-color: #E3EBFE;
 }
 .mk-home-col{
-    padding: 10px;
+    padding-left: 20px;
 }
 .home-greet{
-    margin-top: 20px;
+    margin-top: 100px;
 }
 .mk-home-col h1 , p{
     margin-left: 20px;
@@ -101,29 +101,70 @@
 }
 .mk-home-p{
     font-size: 50px;
-    
-}
-.mk-home-col button{
-    margin-bottom: 20px;
 }
 .mk-home-col2{
-    padding: 10px;
     height: 100%;
-    background-color: #E3EBFE;
+    background-color: var(--purple);
+    display: flex;
+    justify-content: space-around;
 }
 .mk-home-col2 img{
     max-width: 100%;
     height: auto;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 /* home section end  */
 
 /* about section start  */
 #about{
     height: 100vh;
+    background: var(--purple);
 }
-
-
+.mk-about-row1{
+    padding-top: 25px;
+}
+.mk-about-row1 h1{
+    font-size: 50px;
+}
+.mk-about-row1 p{
+    font-size: 20px;
+    text-align: justify;
+}
+.mk-about-row2 h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.mk-about-row2 h1 span{
+    color: var(--yellow);
+}
+.mk-exp .mk-exp-title{
+    font-size: 30px;
+    border-bottom: 2px solid var(--yellow);
+}
+.counter{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: white;
+}
+.counter span{
+    font-size: 30px;
+}
+.counter h3{
+    font-size: 20px;
+}
+.counter .box{
+    width: 250px;
+    background:#222;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+}
+.mk-btn{
+    margin-bottom: 10px;
+}
 
 
 
@@ -198,5 +239,11 @@
     .hamburger.active .bar:nth-child(3){
         -webkit-transform: translateY(-8px) rotate(-45deg);
         transform: translateY(-8px) rotate(-45deg);
+    }
+    .mk-home-col2{
+        display: none;
+    }
+    .counter .box{
+        width: 100%;
     }
 }
