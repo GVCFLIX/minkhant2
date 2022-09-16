@@ -83,9 +83,15 @@
 
 /* home section start  */
 .mk-home-row{
-    height: 86vh;
+    height: 100vh;
     align-items: center;
     background-color: #E3EBFE;
+}
+.mk-home-col{
+    padding: 10px;
+}
+.home-greet{
+    margin-top: 20px;
 }
 .mk-home-col h1 , p{
     margin-left: 20px;
@@ -97,12 +103,25 @@
     font-size: 50px;
     
 }
-.mk-home-col2{
-    height: 100%;
+.mk-home-col button{
+    margin-bottom: 20px;
 }
+.mk-home-col2{
+    padding: 10px;
+    height: 100%;
+    background-color: #E3EBFE;
+}
+.mk-home-col2 img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+/* home section end  */
 
-
-
+/* about section start  */
+#about{
+    height: 100vh;
+}
 
 
 
