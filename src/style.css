@@ -129,12 +129,19 @@
 .mk-about-row1 p{
     font-size: 20px;
     text-align: justify;
+    padding-right: 10px;
+}
+.mk-about-row2 .mk-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .mk-about-row2 h1{
     font-size: 20px;
     font-weight: bold;
 }
 .mk-about-row2 h1 span{
+    font-size: 20px;
     color: var(--yellow);
 }
 .mk-exp .mk-exp-title{
@@ -165,6 +172,31 @@
 .mk-btn{
     margin-bottom: 10px;
 }
+/* about section end  */
+
+/* education section start  */
+#education{
+    height: 100vh;
+    background: var(--purple);
+    padding-top: 5px;
+}
+.mk-edu-row1 h1{
+    font-size: 40px;
+}
+.mk-edu-card{
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -246,6 +278,10 @@
     #about{
         height: auto;
         background: var(--purple);
+    }
+    .mk-about-row1 p{
+        font-size: 20px;
+        text-align: center;
     }
     .counter .box{
         width: 100%;
