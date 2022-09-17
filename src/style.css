@@ -243,6 +243,10 @@
     .mk-home-col2{
         display: none;
     }
+    #about{
+        height: auto;
+        background: var(--purple);
+    }
     .counter .box{
         width: 100%;
     }
