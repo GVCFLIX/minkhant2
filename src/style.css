@@ -16,6 +16,10 @@
     --yellow:#f9ca24;
     --purple:#E3EBFE;
 }
+/* for scroll smooth  */
+html{
+    scroll-behavior: smooth;
+}
 
 /* navbar section start  */
 .header{
@@ -185,8 +189,13 @@
 }
 .mk-edu-card{
     width: auto;
+    box-shadow: 0 2px 10px #302d2d;
+    transition: all 0.5s;
+    cursor: pointer;
 }
-
+.mk-edu-card:hover{
+    transform: translateY(-10px);
+}
 
 
 
