@@ -193,13 +193,53 @@ html{
     transition: all 0.5s;
     cursor: pointer;
 }
+.mk-edu-card h6 a{
+    text-decoration: none;
+}
 .mk-edu-card:hover{
     transform: translateY(-10px);
 }
 
+/* contact section start  */
+#contact{
+    height: 100vh;
+    background: var(--purple);
+    padding-top: 10px;
+}
+.mk-contact-title{
+    font-size: 40px;
+}
+.mk-contact h3 i{
+    color: var(--yellow);
+}
+.mk-contact h3 a{
+    text-decoration: none;
+    color: black;
+}
 
-
-
+/* scrolling top section  */
+.arrow{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 80vh;
+    color: var(--yellow);
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    position: fixed;
+    bottom: 50px;
+    right: 2rem;
+    z-index: 100;
+    /* display: none; */
+}
+.arrow:hover{
+    background-color: var(--yellow);
+    color:#000;
+}
 
 
 

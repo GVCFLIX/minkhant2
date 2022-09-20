@@ -14,3 +14,11 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+
+
+// for auto year 
+let date = new Date();
+// console.log (date);
+let year = date.getFullYear();
+// console.log(year);
+document.getElementById("autoyear").textContent = year;
