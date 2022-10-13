@@ -146,7 +146,11 @@ html{
 }
 .mk-about-row2 h1 span{
     font-size: 20px;
-    color: var(--yellow);
+    color: rgb(194, 16, 16);
+}
+.mk-about-row2 h1 #span{
+font-size: 30px;
+color: var(--yellow);
 }
 .mk-exp .mk-exp-title{
     font-size: 30px;
@@ -216,6 +220,23 @@ html{
     text-decoration: none;
     color: black;
 }
+
+/* Copyright footer section */
+.mk-copyright{
+    width: auto;
+    height: 125px;
+    border-top: 5px solid var(--yellow);
+}
+.mk-copyright h6{
+    font-size: 25px;
+}
+.mk-copyright .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(34, 28, 28, 0.895);
+}
+
 
 /* scrolling top section  */
 .arrow{
